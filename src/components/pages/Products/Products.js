@@ -1,13 +1,12 @@
 import React from "react";
 import HeroSection from "../../HeroSection";
-import Pricing from "../../Pricing";
-import { homeObjTwo } from "./Data";
+
+import { homeObjFour } from "./Data";
 
 function Products() {
   return (
     <>
-      <Pricing />
-      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjFour} />
     </>
   );
 }
